@@ -1,9 +1,9 @@
 {
-  "name": "lozad",
+  "name": "lozad-new",
   "title": "lozad.js",
   "description": "A light-weight JS library to lazy load any HTML element such as images, ads, videos etc.",
-  "version": "1.16.0",
-  "homepage": "https://github.com/ApoorvSaxena/lozad.js",
+  "version": "1.16.1",
+  "homepage": "https://github.com/iam-frankqiu/lozad.js",
   "license": "MIT",
   "scripts": {
     "test": "nyc mocha",
@@ -18,24 +18,24 @@
     "tag": "npm version minor --no-git-tag-version && npm run build && PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git commit -am \"$PACKAGE_VERSION release\" && git tag v$PACKAGE_VERSION"
   },
   "author": {
-    "name": "Apoorv Saxena",
-    "email": "root@apoorv.pro",
-    "url": "https://apoorv.pro"
+    "name": "Frank Qiu",
+    "email": "iam.frankqiu@gmail.com",
+    "url": "https://github.com/iam-frankqiu/lozad.js"
   },
   "browser": "dist/lozad.es.js",
   "main": "dist/lozad.js",
   "module": "dist/lozad.es.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ApoorvSaxena/lozad.js.git"
+    "url": "git@github.com:iam-frankqiu/lozad.js.git"
   },
   "bugs": {
-    "url": "https://github.com/ApoorvSaxena/lozad.js/issues"
+    "url": "https://github.com/iam-frankqiu/lozad.js/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/ApoorvSaxena/lozad.js/blob/master/LICENSE"
+      "url": "https://github.com/iam-frankqiu/lozad.js/blob/master/LICENSE"
     }
   ],
   "files": [
