@@ -1,6 +1,6 @@
 /*! lozad.js - v1.16.1 - 2021-03-26
-* https://github.com/ApoorvSaxena/lozad.js
-* Copyright (c) 2021 Apoorv Saxena; Licensed MIT */
+* https://github.com/iam-frankqiu/lozad.js
+* Copyright (c) 2021 Frank Qiu; Licensed MIT */
 
 
 /**

@@ -1,12 +1,12 @@
 /*! lozad.js - v1.16.1 - 2021-03-26
-* https://github.com/ApoorvSaxena/lozad.js
-* Copyright (c) 2021 Apoorv Saxena; Licensed MIT */
+* https://github.com/iam-frankqiu/lozad.js
+* Copyright (c) 2021 Frank Qiu; Licensed MIT */
 
 
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
-  (global.lozad = factory());
+  (global['lozad-new'] = factory());
 }(this, (function () { 'use strict';
 
   /**
